@@ -26,13 +26,13 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45628998">
+    <splitter split-orientation="horizontal" split-proportion="0.5562016">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归自写.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="265">
+                <state relative-caret-position="1475">
                   <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
                 </state>
               </provider>
@@ -41,8 +41,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_00_test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="338">
-                  <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+                <state relative-caret-position="163">
+                  <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
                   <folding>
                     <element signature="e#124#136#0" expanded="true" />
                   </folding>
@@ -58,7 +58,7 @@
             <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_05_分类.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="107">
-                  <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+                  <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
                   <folding>
                     <element signature="e#122#134#0" expanded="true" />
                   </folding>
@@ -133,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-259" />
     <option name="y" value="156" />
     <option name="width" value="1026" />
@@ -147,29 +147,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="computer vision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="computer vision" type="462c0819:PsiDirectoryNode" />
+              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="computer vision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="computer vision" type="462c0819:PsiDirectoryNode" />
-              <item name="07-莫凡" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="computer vision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="computer vision" type="462c0819:PsiDirectoryNode" />
-              <item name="07-莫凡" type="462c0819:PsiDirectoryNode" />
-              <item name="pytorch" type="462c0819:PsiDirectoryNode" />
+              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,7 +171,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -342,9 +335,6 @@
       <module name="computer vision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-莫凡/pytorch" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -427,6 +417,7 @@
       <workItem from="1572348432097" duration="6310000" />
       <workItem from="1572355444502" duration="2752000" />
       <workItem from="1572616337231" duration="1335000" />
+      <workItem from="1572761273612" duration="898000" />
     </task>
     <task id="LOCAL-00001" summary="1. 测试维度添加&#10;2. 测试torch.rand(100)">
       <created>1572338958214</created>
@@ -446,7 +437,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164699000" />
+    <option name="totallyTimeSpent" value="165597000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -459,9 +450,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19667171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -475,7 +465,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.18061674" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2881997" side_tool="true" weight="0.3886097" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.7118003" visible="true" weight="0.22315437" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.7118003" visible="true" weight="0.26342282" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -483,7 +473,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" weight="0.2457356" />
       <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="5" side_tool="true" weight="0.27231467" />
-      <window_info anchor="right" content_ui="combo" x="70" y="129" width="798" height="499" id="SciView" order="6" side_tool="true" type="WINDOWED" weight="0.32980332" />
+      <window_info active="true" anchor="right" content_ui="combo" x="70" y="129" width="798" height="499" id="SciView" order="6" side_tool="true" type="WINDOWED" visible="true" weight="0.32980332" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.12793177" />
@@ -635,16 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="211">
-            <caret line="19" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/README.md" />
     <entry file="file://$PROJECT_DIR$/04-keras/05_minist_convnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -662,58 +643,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/ssd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="58" column="63" lean-forward="true" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/demo/live.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/data/voc0712.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="182" column="11" lean-forward="true" selection-start-line="182" selection-start-column="11" selection-end-line="182" selection-end-column="11" />
-          <folding>
-            <element signature="e#177#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/data/coco_labels.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/data/coco.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="71" column="65" lean-forward="true" selection-start-line="71" selection-start-column="65" selection-end-line="71" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/data/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ssd.pytorch/ssd.py" />
+    <entry file="file://$PROJECT_DIR$/ssd.pytorch/train.py" />
+    <entry file="file://$PROJECT_DIR$/ssd.pytorch/demo/live.py" />
+    <entry file="file://$PROJECT_DIR$/ssd.pytorch/data/voc0712.py" />
+    <entry file="file://$PROJECT_DIR$/ssd.pytorch/data/coco_labels.txt" />
+    <entry file="file://$PROJECT_DIR$/ssd.pytorch/data/coco.py" />
+    <entry file="file://$PROJECT_DIR$/ssd.pytorch/data/config.py" />
     <entry file="file://$USER_HOME$/Desktop/VOC_F/trans.py" />
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-2106574905/nt.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -722,76 +658,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#238#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/demo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/demo/coco_test_12510.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/mmdet/version.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/mmdet/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/INSTALL.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="415">
-            <caret line="20" selection-start-line="20" selection-end-line="20" />
-            <folding>
-              <element signature="e#0#21#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ssd.pytorch/eval.py" />
+    <entry file="file://$PROJECT_DIR$/ssd.pytorch/test.py" />
+    <entry file="file://$PROJECT_DIR$/ssd.pytorch/demo/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/demo/coco_test_12510.jpg" />
+    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/mmdet/version.py" />
+    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/mmdet/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/INSTALL.md" />
+    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/setup.py" />
     <entry file="file://$PROJECT_DIR$/04-keras/deep-learning-with-python-notebooks-master/2.1-a-first-look-at-a-neural-network.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitTUT/1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/github/1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitTUT/2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gitTUT/1.py" />
+    <entry file="file://$PROJECT_DIR$/github/1.py" />
+    <entry file="file://$PROJECT_DIR$/gitTUT/2.py" />
     <entry file="file://$PROJECT_DIR$/04-keras/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -799,16 +679,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/mmdet/models/detectors/faster_rcnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/mmdet/models/detectors/faster_rcnn.py" />
     <entry file="file://$PROJECT_DIR$/05-test/01_test_str.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -833,31 +704,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/tools/convert_datasets/pascal_voc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/mmdet/models/detectors/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/TECHNICAL_DETAILS.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/tools/convert_datasets/pascal_voc.py" />
+    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/mmdet/models/detectors/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/TECHNICAL_DETAILS.md" />
     <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/03-torch中的激励函数.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torch/nn/modules/module.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -931,7 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归自写.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="1475">
           <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
         </state>
       </provider>
@@ -939,7 +788,7 @@
     <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_05_分类.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
-          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
           <folding>
             <element signature="e#122#134#0" expanded="true" />
           </folding>
@@ -948,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_00_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="163">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="e#124#136#0" expanded="true" />
           </folding>
