@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0fc9d87-66dd-4df1-ab6f-689016263982" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_07_保存网络.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_08_批训练.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/keen_07_保存网络.py" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_07_保存网络.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +31,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_07_保存网络.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="275">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="e#124#136#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_08_批训练.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#122#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torch/utils/data/dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -108,6 +128,7 @@
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_06_快速搭建法.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_07_保存网络.py" />
+        <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_08_批训练.py" />
       </list>
     </option>
   </component>
@@ -187,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.keen_07_保存网络">
+  <component name="RunManager" selected="Python.keen_08_批训练">
     <configuration name="02_imdb_classify" type="PythonConfigurationType" factoryName="Python">
       <module name="computer vision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,28 +267,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-莫凡/pytorch/keen_00_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="keen_04_回归自写" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="computer vision" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-莫凡/pytorch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归自写.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,13 +335,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="keen_08_批训练" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="computer vision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-莫凡/pytorch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-莫凡/pytorch/keen_08_批训练.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.keen_08_批训练" />
         <item itemvalue="Python.keen_07_保存网络" />
         <item itemvalue="Python.keen_06_快速搭建法" />
         <item itemvalue="Python.keen_05_分类" />
         <item itemvalue="Python.keen_00_test" />
-        <item itemvalue="Python.keen_04_回归自写" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +424,7 @@
       <workItem from="1572761273612" duration="2615000" />
       <workItem from="1572826779531" duration="1158000" />
       <workItem from="1572828085099" duration="1850000" />
-      <workItem from="1572941188655" duration="7703000" />
+      <workItem from="1572941188655" duration="12705000" />
     </task>
     <task id="LOCAL-00001" summary="1. 测试维度添加&#10;2. 测试torch.rand(100)">
       <created>1572338958214</created>
@@ -429,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572942813818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="保存整体网络及只保存网络参数">
+      <created>1572951673408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572951673408</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178025000" />
+    <option name="totallyTimeSpent" value="183027000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -448,7 +473,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17170954" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17170954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -462,7 +487,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.18061674" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2881997" side_tool="true" weight="0.3886097" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.7118003" visible="true" weight="0.12416107" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.7118003" visible="true" weight="0.42449665" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -470,7 +495,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" weight="0.2457356" />
       <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="5" side_tool="true" weight="0.27231467" />
-      <window_info anchor="right" content_ui="combo" x="195" y="157" width="798" height="499" id="SciView" order="6" side_tool="true" type="WINDOWED" visible="true" weight="0.32980332" />
+      <window_info anchor="right" content_ui="combo" x="195" y="157" width="798" height="499" id="SciView" order="6" side_tool="true" type="WINDOWED" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +555,8 @@
     <MESSAGE value="1. 测试维度添加&#10;2. 测试torch.rand(100)" />
     <MESSAGE value="对照04与05，并在00中进行一些必要测试&#10;torch.ones(10,2)&#10;torch.normal(means=1,std=1)" />
     <MESSAGE value="使用nn.Sequential() 容器进行创建模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用nn.Sequential() 容器进行创建模型" />
+    <MESSAGE value="保存整体网络及只保存网络参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="保存整体网络及只保存网络参数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,20 +589,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas/tests/extension/arrow/bool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1975">
-          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/keras/layers/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="835" column="41" lean-forward="true" selection-start-line="835" selection-start-column="41" selection-end-line="835" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/360极速浏览器下载/labelImg-master/labelImg-master/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -776,10 +788,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_07_保存网络.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="275">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="e#124#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torch/utils/data/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_08_批训练.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#122#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
