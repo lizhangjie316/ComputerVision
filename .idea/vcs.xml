@@ -2,11 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/gitTUT" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/github" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/labelImg" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mmcv" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ssd.pytorch" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/visdom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gitTUT" vcs="" />
+    <mapping directory="$PROJECT_DIR$/github" vcs="" />
+    <mapping directory="$PROJECT_DIR$/labelImg" vcs="" />
+    <mapping directory="$PROJECT_DIR$/mmcv" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ssd.pytorch" vcs="" />
+    <mapping directory="$PROJECT_DIR$/visdom" vcs="" />
   </component>
 </project>
