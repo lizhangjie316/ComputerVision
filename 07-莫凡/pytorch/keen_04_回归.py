@@ -29,7 +29,7 @@ print(net)  # net architecture
 optimizer = torch.optim.SGD(net.parameters(), lr=0.2)
 loss_func = torch.nn.MSELoss()  # this is for regression mean squared loss
 
-plt.ion()  # something about plotting
+plt.ion()  # 开启了交互模式 与plt.ioff() 对应，意为关闭交互模式
 
 for t in range(200):
 	prediction = net(x)  # input x and predict based on x
