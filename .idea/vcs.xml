@@ -7,7 +7,7 @@
     <mapping directory="$PROJECT_DIR$/labelImg" vcs="" />
     <mapping directory="$PROJECT_DIR$/mmcv" vcs="" />
     <mapping directory="$PROJECT_DIR$/ssd.pytorch" vcs="" />
-    <mapping directory="$PROJECT_DIR$/taobaoVisitingVenues" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/taobaoVisitingVenues" vcs="" />
     <mapping directory="$PROJECT_DIR$/visdom" vcs="" />
   </component>
 </project>
