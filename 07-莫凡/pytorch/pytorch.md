@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 [TOC]
 ----
 ## 1. 激励函数分类
@@ -69,9 +70,20 @@ plt.show()
 ```
 
 ## 10.卷积神经网络 
-### 卷积
+### 10.1 卷积
+##  卷积性质
+1. 卷积核的个数决定卷积生成特征图的通道数
+2. 输入特征图的通道数决定单个卷积核的深度
+3. 通常一个kernel包含多层filter
+4. 卷积操作后的特征图的尺度满足： ![image](./../../img_fold/求卷积后宽度.png "卷积后宽度")
+5. 当stride=1时，想要 con2d 出来的图片长宽没有变化, padding=(kernel_size-1)/2
+
+## 卷积原则
+
 - 卷积过程不压缩长宽，只改变channel数，尽量保留更多的信息
 - polling阶段压缩长宽，不改变channel数
+
+
 
 
 
