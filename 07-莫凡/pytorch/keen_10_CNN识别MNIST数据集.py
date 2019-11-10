@@ -37,8 +37,9 @@ test_data = torchvision.datasets.MNIST(root='./mnist/', train=False)
 train_loader = Data.DataLoader(dataset=train_data, batch_size=BATCH_SIZE, shuffle=True)
 
 # 为了节约时间, 我们测试时只测试前2000个
-test_x = torch.unsqueeze(test_data.test_data, dim=1).type(torch.FloatTensor)[:2000]/255.   # shape from (2000, 28, 28) to (2000, 1, 28, 28), value in range(0,1)
-test_y = test_data.test_labels[:2000]
+test_x = torch.unsqueeze(test_data.data, dim=1).type(torch.FloatTensor)[:2000]/255.   # shape from (2000, 28, 28) to (2000, 1, 28, 28), value in range(0,1)
+test_y = test_data.targets[:2000]
+
 
 class CNN(nn.Module):
     def __init__(self):
@@ -65,15 +66,15 @@ class CNN(nn.Module):
         x = self.conv1(x)
         x = self.conv2(x)
         x = x.view(x.size(0), -1)  # 展平多维的卷积图成 (batch_size, 32 * 7 * 7)
-        output = self.out(x)
-        return output
+        x = self.out(x)
+        return x
 
 
 cnn = CNN()
 print(cnn)  # net architecture
 
 optimizer = torch.optim.Adam(cnn.parameters(), lr=LR)   # optimize all cnn parameters
-loss_func = nn.CrossEntropyLoss()   # the target label is not one-hotted
+loss_func = nn.CrossEntropyLoss()   # the target label is not one-hotted    交叉熵损失
 
 # training and testing
 for epoch in range(EPOCH):
@@ -83,8 +84,16 @@ for epoch in range(EPOCH):
         optimizer.zero_grad()           # clear gradients for this training step
         loss.backward()                 # backpropagation, compute gradients
         optimizer.step()                # apply gradients
+        accuracy = 0
+        # float((output == b_y[:10]).astype(float).sum()) / float(b_y.size)
+
+        print("Epoch = %d" % epoch, "Step = %d" % step, "  Loss = %.4f" % loss, "  Accuracy = %.4f" % accuracy)
+
 
 test_output = cnn(test_x[:10])
 pred_y = torch.max(test_output, 1)[1].data.numpy().squeeze()
 print(pred_y, 'prediction number')
 print(test_y[:10].numpy(), 'real number')
+# [7 2 1 0 4 1 4 9 5 9] prediction number
+# [7 2 1 0 4 1 4 9 5 9] real number
+

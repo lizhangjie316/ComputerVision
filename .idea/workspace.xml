@@ -4,13 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/01-python/source code/08_cnn/cnn_numpy.py" line="22" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0fc9d87-66dd-4df1-ab6f-689016263982" name="Default Changelist" comment="commit图片文件夹">
-      <change afterPath="$PROJECT_DIR$/img_fold/求卷积后宽度.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c0fc9d87-66dd-4df1-ab6f-689016263982" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据github版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集自写版.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/computer vision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/computer vision.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/keen_05_分类.py" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_05_分类.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集.py" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/pytorch.md" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/pytorch.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +39,13 @@
         <state>
           <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/pytorch.md">
-                <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                  <state split_layout="SPLIT">
-                    <first_editor relative-caret-position="403">
-                      <caret line="85" selection-start-line="85" selection-end-line="85" />
-                    </first_editor>
-                    <second_editor />
+              <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据github版.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="215">
+                    <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+                    <folding>
+                      <element signature="e#139#148#0" expanded="true" />
+                    </folding>
                   </state>
                 </provider>
               </entry>
@@ -54,53 +55,50 @@
       </content>
     </window>
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            <state relative-caret-position="89">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="e#132#144#0" expanded="true" />
-                <element signature="e#259#1416#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torchvision/datasets/mnist.py">
+        <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集自写版.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+            <state relative-caret-position="73">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#135#144#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_05_分类.py">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="68" column="114" selection-start-line="68" selection-start-column="114" selection-end-line="68" selection-end-column="114" />
-              <folding>
-                <element signature="e#122#134#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75100">
+              <caret line="3053" column="4" selection-start-line="3053" selection-start-column="4" selection-end-line="3053" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_08_批训练.py">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/torchvision/datasets/mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="24" />
-              <folding>
-                <element signature="e#122#134#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1675">
+              <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -123,6 +121,9 @@
       <find>forward</find>
       <find>acc</find>
       <find>BATCH_SIZE</find>
+      <find>test_data</find>
+      <find>b_y</find>
+      <find>1199</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -168,16 +169,18 @@
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_00_test.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归自写.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_06_快速搭建法.py" />
-        <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_07_保存网络.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_08_批训练.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_09_加速神经网络.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_03_自练.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_05_分类.py" />
-        <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/pytorch.md" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/mnist/MNIST/processed/test.pt" />
+        <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py" />
+        <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集.py" />
+        <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据github版.py" />
+        <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集自写版.py" />
       </list>
     </option>
   </component>
@@ -188,6 +191,7 @@
     <option name="height" value="554" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -214,25 +218,6 @@
               <item name="07-莫凡" type="462c0819:PsiDirectoryNode" />
               <item name="pytorch" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
-              <item name="07-莫凡" type="462c0819:PsiDirectoryNode" />
-              <item name="pytorch" type="462c0819:PsiDirectoryNode" />
-              <item name="mnist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerVision" type="462c0819:PsiDirectoryNode" />
-              <item name="07-莫凡" type="462c0819:PsiDirectoryNode" />
-              <item name="pytorch" type="462c0819:PsiDirectoryNode" />
-              <item name="mnist" type="462c0819:PsiDirectoryNode" />
-              <item name="MNIST" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerVision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -245,7 +230,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/img_fold" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -362,7 +347,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="keen_07_保存网络" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="keen_04_回归" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="computer vision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,7 +360,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-莫凡/pytorch/keen_07_保存网络.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,29 +369,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="keen_08_批训练" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="computer vision" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-莫凡/pytorch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-莫凡/pytorch/keen_08_批训练.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="keen_10_CNN识别MNIST数据集" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="keen_10_CNN识别MNIST数据集" type="PythonConfigurationType" factoryName="Python">
       <module name="computer vision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -425,13 +388,53 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="keen_10_CNN识别MNIST数据集自写版" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="computer vision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-莫凡/pytorch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集自写版.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="keen_10_CNN识别MNIST数据github版" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="computer vision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-莫凡/pytorch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据github版.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.keen_10_CNN识别MNIST数据集" />
+        <item itemvalue="Python.keen_10_CNN识别MNIST数据github版" />
+        <item itemvalue="Python.keen_04_回归" />
         <item itemvalue="Python.keen_03_自练" />
         <item itemvalue="Python.keen_03-torch中的激励函数" />
-        <item itemvalue="Python.keen_08_批训练" />
-        <item itemvalue="Python.keen_07_保存网络" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +503,11 @@
       <workItem from="1573123695405" duration="4031000" />
       <workItem from="1573128903288" duration="123000" />
       <workItem from="1573129070821" duration="92000" />
-      <workItem from="1573129211412" duration="6496000" />
+      <workItem from="1573129211412" duration="6961000" />
+      <workItem from="1573172632442" duration="5424000" />
+      <workItem from="1573181452298" duration="4031000" />
+      <workItem from="1573200883592" duration="4420000" />
+      <workItem from="1573219130270" duration="1066000" />
     </task>
     <task id="LOCAL-00001" summary="1. 测试维度添加&#10;2. 测试torch.rand(100)">
       <created>1572338958214</created>
@@ -558,11 +565,25 @@
       <option name="project" value="LOCAL" />
       <updated>1573005880267</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cnn识别mnist数据集">
+      <created>1573135798020</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573135798020</updated>
+    </task>
+    <task id="LOCAL-00010" summary="mnist数据集下载">
+      <created>1573135914897</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573135914897</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210758000" />
+    <option name="totallyTimeSpent" value="226164000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -575,9 +596,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19969743" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32214764" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43791947" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.24118942" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.07550336" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2881997" side_tool="true" weight="0.3886097" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.7118003" visible="true" weight="0.26845637" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" weight="0.2457356" />
+      <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="5" side_tool="true" weight="0.27231467" />
+      <window_info anchor="right" content_ui="combo" x="364" y="168" width="798" height="499" id="SciView" order="6" side_tool="true" type="WINDOWED" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19969743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -591,7 +636,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.07550336" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2881997" side_tool="true" weight="0.3886097" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.7118003" visible="true" weight="0.060402684" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.7118003" visible="true" weight="0.26174498" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -599,8 +644,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" weight="0.2457356" />
       <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="5" side_tool="true" weight="0.27231467" />
-      <window_info anchor="right" content_ui="combo" x="233" y="165" width="798" height="499" id="SciView" order="6" side_tool="true" type="WINDOWED" weight="0.32980332" />
-    </layout>
+      <window_info anchor="right" content_ui="combo" x="364" y="168" width="798" height="499" id="SciView" order="6" side_tool="true" type="WINDOWED" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -664,7 +709,9 @@
     <MESSAGE value="加速神经网络" />
     <MESSAGE value="测试img_fold,是否本地与远程均可用" />
     <MESSAGE value="提交上去，图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交上去，图片" />
+    <MESSAGE value="cnn识别mnist数据集" />
+    <MESSAGE value="mnist数据集下载" />
+    <option name="LAST_COMMIT_MESSAGE" value="mnist数据集下载" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -678,6 +725,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ComputerVision$keen_10_CNNMNIST.coverage" NAME="keen_10_CNN识别MNIST数据集自写版 Coverage Results" MODIFIED="1573204956175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-莫凡/pytorch" />
     <SUITE FILE_PATH="coverage/computer_vision$test.coverage" NAME="test Coverage Results" MODIFIED="1564542855644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01-python/source code/08_cnn" />
     <SUITE FILE_PATH="coverage/computer_vision$trans.coverage" NAME="trans Coverage Results" MODIFIED="1566547850917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/VOC_F" />
     <SUITE FILE_PATH="coverage/computer_vision$02_imdb_classify.coverage" NAME="02_imdb_classify Coverage Results" MODIFIED="1565146787512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-keras" />
@@ -697,17 +745,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/data/coco.py" />
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/data/config.py" />
-    <entry file="file://$USER_HOME$/Desktop/VOC_F/trans.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-2106574905/nt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="291" column="11" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssd.pytorch/eval.py" />
     <entry file="file://$PROJECT_DIR$/ssd.pytorch/test.py" />
     <entry file="file://$PROJECT_DIR$/ssd.pytorch/demo/__init__.py" />
     <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/demo/coco_test_12510.jpg" />
@@ -755,24 +792,11 @@
     <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/mmdet/models/detectors/__init__.py" />
     <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/TECHNICAL_DETAILS.md" />
     <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/03-torch中的激励函数.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torch/nn/modules/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torch/nn/modules/module.py" />
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-2106574905/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132025">
           <caret line="5281" column="11" selection-start-line="5281" selection-start-column="11" selection-end-line="5281" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torch/nn/functional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33400">
-          <caret line="1349" selection-start-line="1349" selection-end-line="1349" />
         </state>
       </provider>
     </entry>
@@ -787,27 +811,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torch/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="2837" column="4" selection-start-line="2837" selection-start-column="4" selection-end-line="2837" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torch/__init__.pyi" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/matplotlib/pyplot.py" />
     <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_00_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -828,13 +834,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torch/utils/data/dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3775">
-          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torch/utils/data/dataset.py" />
     <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_03-torch中的激励函数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -852,23 +852,6 @@
           <folding>
             <element signature="e#121#133#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#122#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归自写.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="43" selection-start-line="43" selection-end-line="65" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -896,16 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_05_分类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="68" column="114" selection-start-line="68" selection-start-column="114" selection-end-line="68" selection-end-column="114" />
-          <folding>
-            <element signature="e#122#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/mnist/MNIST/raw/t10k-images-idx3-ubyte">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -919,49 +892,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torchvision/datasets/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_08_批训练.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="236">
+          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="45" selection-end-column="66" />
           <folding>
             <element signature="e#122#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="e#132#144#0" expanded="true" />
-            <element signature="e#259#1416#0" />
-          </folding>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torchvision/datasets/mnist.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/IPython/core/interactiveshell.py" />
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/pytorch.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="665">
+            <caret line="85" selection-start-line="85" selection-end-line="85" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/pytorch.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="403">
-            <caret line="85" selection-start-line="85" selection-end-line="85" />
-          </first_editor>
-          <second_editor />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_05_分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="68" column="32" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="32" />
+          <folding>
+            <element signature="e#122#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归自写.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <folding>
+            <element signature="e#122#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/torch/nn/functional.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75100">
+          <caret line="3053" column="4" selection-start-line="3053" selection-start-column="4" selection-end-line="3053" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/torchvision/datasets/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1675">
+          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据github版.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+          <folding>
+            <element signature="e#139#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集自写版.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#135#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#132#144#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
