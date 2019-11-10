@@ -10,6 +10,10 @@ import matplotlib.pyplot as plt
 import torch
 import torch.nn.functional as F
 
+# 本来是一维的，后来加了一个维度
+x = torch.unsqueeze(torch.linspace(-1, 1, 100), dim=1)  # 1:从上往下加维度 shape: [100, 1]    0:从左往右加维度 shape: [1,100] # y = x^2 + 高斯白噪声
+y = x.pow(2) + 0.2 * torch.rand(x.size())
+
 
 class Net(torch.nn.Module):
 	def __init__(self, n_feature, n_hidden, n_output):
@@ -39,7 +43,7 @@ for t in range(200):
 	optimizer.zero_grad()  # clear gradients for next train
 	loss.backward()  # backpropagation, compute gradients
 	optimizer.step()  # apply gradients
-
+	# print("step=%d" % t,'Loss=%.4f' % loss.data.numpy())
 	if t % 5 == 0:
 		# plot and show learning process
 		plt.cla()
