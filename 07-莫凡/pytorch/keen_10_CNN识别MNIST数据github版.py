@@ -4,7 +4,7 @@
 @Time    : 2019/11/8 10:11
 @Author  : Keen
 @Software: PyCharm
-"""
+torch"""
 
 import os
 
@@ -27,7 +27,7 @@ DOWNLOAD_MNIST = False
 # Mnist digits dataset
 if not(os.path.exists('./mnist/')) or not os.listdir('./mnist/'):
     # not mnist dir or mnist is empyt dir
-    DOWNLOAD_MNIST = False
+    DOWNLOAD_MNIST = True
 
 train_data = torchvision.datasets.MNIST(
     root='./mnist/',
@@ -90,8 +90,14 @@ loss_func = nn.CrossEntropyLoss()                       # the target label is no
 
 # following function (plot_with_labels) is for visualization, can be ignored if not interested
 from matplotlib import cm
-try: from sklearn.manifold import TSNE; HAS_SK = True
-except: HAS_SK = False; print('Please install sklearn for layer visualization')
+try:
+	from sklearn.manifold import TSNE
+	HAS_SK = True
+except:
+	HAS_SK = False
+	print('Please install sklearn for layer visualization')
+
+
 def plot_with_labels(lowDWeights, labels):
     plt.cla()
     X, Y = lowDWeights[:, 0], lowDWeights[:, 1]
@@ -99,18 +105,19 @@ def plot_with_labels(lowDWeights, labels):
         c = cm.rainbow(int(255 * s / 9)); plt.text(x, y, s, backgroundcolor=c, fontsize=9)
     plt.xlim(X.min(), X.max()); plt.ylim(Y.min(), Y.max()); plt.title('Visualize last layer'); plt.show(); plt.pause(0.01)
 
+
 plt.ion()
 # training and testing
 for epoch in range(EPOCH):
     for step, (b_x, b_y) in enumerate(train_loader):   # gives batch data, normalize x when iterate train_loader
 
-        output = cnn(b_x)[0]               # cnn output
+        output = cnn(b_x)[0]               # cnn output  而不是  x
         loss = loss_func(output, b_y)   # cross entropy loss
         optimizer.zero_grad()           # clear gradients for this training step
         loss.backward()                 # backpropagation, compute gradients
         optimizer.step()                # apply gradients
 
-        if step % 50 == 0:
+        if step % 50 == 0:  # 每过50轮次，测试一次，
             test_output, last_layer = cnn(test_x)
             pred_y = torch.max(test_output, 1)[1].data.numpy()
             accuracy = float((pred_y == test_y.data.numpy()).astype(int).sum()) / float(test_y.size(0))

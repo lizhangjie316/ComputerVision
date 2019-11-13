@@ -40,10 +40,10 @@ loader = Data.DataLoader(
 def show_batch():
 	for epoch in range(3): # 3. 训练数据3轮
 		# 4. 每步导出5个数据
-		for step, (batch_x, batch_y) in enumerate(loader):  # enumerate(loader) 返回枚举对象，以索引、及其对应位置数据 的形式
+		for step, (batch_x, batch_y) in enumerate(loader):
+			# enumerate(loader) 返回枚举对象，以索引、及其对应位置数据 的形式
 			# train data
-			print("Epoch: ", epoch, "| Step: ", step, "batch x: ",
-			      batch_x.numpy(), "| batch y: ", batch_y.numpy())
+			print("Epoch: ", epoch, "| Step: ", step, "batch x: ", batch_x.numpy(), "| batch y: ", batch_y.numpy())
 
 
 if __name__ == "__main__":

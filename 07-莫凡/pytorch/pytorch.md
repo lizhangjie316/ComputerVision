@@ -24,6 +24,7 @@ class Net(nn.Module):
 
 	def __init__(self, n_feature, n_hidden, n_output):
 		super(Net, self).__init__()
+		# 传入子类类名来确定是属于哪个子类的父类， 再传入子类对象
 		self.hidden = nn.Linear(n_feature, n_hidden)  # 隐藏层线性输出
 		self.predict = nn.Linear(n_hidden, n_output)  # 输出层线性输出
 
@@ -71,18 +72,94 @@ plt.show()
 
 ## 10.卷积神经网络 
 ### 10.1 卷积
-##  卷积性质
+####  1.卷积性质
 1. 卷积核的个数决定卷积生成特征图的通道数
 2. 输入特征图的通道数决定单个卷积核的深度
 3. 通常一个kernel包含多层filter
 4. 卷积操作后的特征图的尺度满足： ![image](./../../img_fold/求卷积后宽度.png "卷积后宽度")
 5. 当stride=1时，想要 con2d 出来的图片长宽没有变化, padding=(kernel_size-1)/2
 
-## 卷积原则
+#### 2.卷积原则
+    - 卷积过程不压缩长宽，只改变channel数，尽量保留更多的信息
+    - polling阶段压缩长宽，不改变channel数
 
-- 卷积过程不压缩长宽，只改变channel数，尽量保留更多的信息
-- polling阶段压缩长宽，不改变channel数
+##### 3.卷积函数 
+###### 一维卷积函数 nn.Conv1()
+    
+    
+    
 
+
+nn.Conv2()
+
+
+#### 代码过程
+##### 引入数据
+    # 超参设置
+    EPOCH = 1
+    BATCH_SIZE = 50
+    LR = 0.001
+    DOWNLOAD_MNIST = False # True:去新下载   False:不用再下载
+        
+    # 处理数据
+    if not(os.path.exists("./mnist/")) or not(os.listdir("./mnist/")):
+        # mnist文件夹不存在 或者 mnist文件夹中为空，则下载mnist数据集
+        DOWNLOAD_MNIST = True
+    
+    train_data = torchvision.datasets.MNIST(
+        root="./mnist/",
+        train=True,
+        transform=torchvision.transforms.ToTensor(),
+    
+        download=DOWNLOAD_MNIST,
+    )
+
+##### 构建网络
+
+
+## 11. 循环神经网络(RNN)
+### 1. 作用
+    用来处理序列化数据
+   - [RNN推导博客](https://www.cnblogs.com/pinard/p/6509630.html)
+    ![image](./../../img_fold/RNN模型图.png "RNN模型图")
+    
+    1. x(t)代表在序列索引号t时训练样本的输入。同样的，x(t−1)和x(t+1)代表在序列索引号t−1和t+1时训练样本的输入。
+    2. h(t)代表在序列索引号t时模型的隐藏状态。h(t)由x(t)和h(t−1)共同决定。
+    3. o(t)代表在序列索引号t时模型的输出。o(t)只由模型当前的隐藏状态h(t)决定。
+    4. L(t)代表在序列索引号t时模型的损失函数。
+    5. y(t)代表在序列索引号t时训练样本序列的真实输出。
+    6. U,W,V这三个矩阵是我们的模型的线性关系参数，它在整个RNN网络中是共享的，
+       这点和DNN很不相同。 也正因为是共享了，它体现了RNN的模型的“循环反馈”的思想。
+       
+### 2. 问题
+    存在梯度消失的情况，难以处理长序列的数据，故而提出RNN的特例LSTM（Long Short-Term Memory）
+### 3. 梯度消失与梯度爆炸
+[梯度消失与梯度爆炸博客](https://www.jianshu.com/p/243ab5aff906)
+#### 问题产生:
+    层数比较多的神经网络模型在使用梯度下降法对误差进行反向传播时会出现梯度消失和梯度爆炸问题
+    - 梯度消失发生时，靠近输出层的隐藏层权值更新正常，靠近输入层的隐藏层权值几乎不变，接近于初始化的权值，
+      导致输入层附近的隐藏层相当于只起到一个函数映射的作用，相当于DNN的学习只是后几层的隐藏层在学习。
+    - 梯度爆炸发生在初始权值过大，靠近输入层的权值变化比靠近输出层的权值变化更快。
+#### 问题解决:
+    - 用ReLU、Leaky ReLU、PReLU、RReLU、Maxout等替代sigmoid函数。
+    - 用Batch Normalization。
+    - LSTM的结构设计也可以改善RNN中的梯度消失问题。
+#### Batch Normalization解决梯度爆炸思路
+    # TODO
+#### LSTM的结构解决梯度爆炸思路
+    # TODO
+
+## 12. LSTM(长短期记忆)
+    相比RNN多出了3个控制器
+    - 输入控制器
+    - 输出控制器
+    - 忘记控制器
+   
+
+
+
+    
+     
 
 
 

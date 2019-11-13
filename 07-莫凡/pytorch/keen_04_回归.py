@@ -11,7 +11,8 @@ import torch
 import torch.nn.functional as F
 
 # 本来是一维的，后来加了一个维度
-x = torch.unsqueeze(torch.linspace(-1, 1, 100), dim=1)  # 1:从上往下加维度 shape: [100, 1]    0:从左往右加维度 shape: [1,100] # y = x^2 + 高斯白噪声
+x = torch.unsqueeze(torch.linspace(-1, 1, 100), dim=1)
+# 1:从上往下加维度 shape: [100, 1]    0:从左往右加维度 shape: [1,100] # y = x^2 + 高斯白噪声
 y = x.pow(2) + 0.2 * torch.rand(x.size())
 
 
@@ -33,17 +34,17 @@ print(net)  # net architecture
 optimizer = torch.optim.SGD(net.parameters(), lr=0.2)
 loss_func = torch.nn.MSELoss()  # this is for regression mean squared loss
 
+# plt.scatter(x, y)
+# plt.plot(x, prediction, 'r-', lw=5)
+
 plt.ion()  # 开启了交互模式 与plt.ioff() 对应，意为关闭交互模式
 
 for t in range(200):
 	prediction = net(x)  # input x and predict based on x
-
 	loss = loss_func(prediction, y)  # must be (1. nn output, 2. target)
-
 	optimizer.zero_grad()  # clear gradients for next train
 	loss.backward()  # backpropagation, compute gradients
 	optimizer.step()  # apply gradients
-	# print("step=%d" % t,'Loss=%.4f' % loss.data.numpy())
 	if t % 5 == 0:
 		# plot and show learning process
 		plt.cla()
