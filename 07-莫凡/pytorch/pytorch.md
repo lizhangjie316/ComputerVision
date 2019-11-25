@@ -84,8 +84,15 @@ plt.show()
     - polling阶段压缩长宽，不改变channel数
 
 ##### 3.卷积函数 
-###### 一维卷积函数 nn.Conv1()
-    
+###### nn.Conv1() 及 nn.Conv2() nn.Conv3() 区别与联系
+[nn.Conv1d和nn.Conv2d理解](https://blog.csdn.net/Elva_23/article/details/83826587)
+- 一维卷积函数  
+        
+        nn.Conv1d()卷积时对纵列进行卷积
+        nn.Conv1d(in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True)
+- 二维卷积函数
+        
+        nn.Conv2d(in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True)
     
     
 

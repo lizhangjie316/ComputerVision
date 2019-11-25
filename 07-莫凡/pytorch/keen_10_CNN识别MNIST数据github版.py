@@ -106,7 +106,7 @@ def plot_with_labels(lowDWeights, labels):
     plt.xlim(X.min(), X.max()); plt.ylim(Y.min(), Y.max()); plt.title('Visualize last layer'); plt.show(); plt.pause(0.01)
 
 
-plt.ion()
+# plt.ion()
 # training and testing
 for epoch in range(EPOCH):
     for step, (b_x, b_y) in enumerate(train_loader):   # gives batch data, normalize x when iterate train_loader
@@ -129,7 +129,7 @@ for epoch in range(EPOCH):
                 low_dim_embs = tsne.fit_transform(last_layer.data.numpy()[:plot_only, :])
                 labels = test_y.numpy()[:plot_only]
                 plot_with_labels(low_dim_embs, labels)
-plt.ioff()
+# plt.ioff()
 
 # print 10 predictions from test data
 test_output, _ = cnn(test_x[:10])
