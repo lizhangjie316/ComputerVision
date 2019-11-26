@@ -4,14 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/01-python/source code/08_cnn/cnn_numpy.py" line="22" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0fc9d87-66dd-4df1-ab6f-689016263982" name="Default Changelist" comment="删除原版，并理解accuracy的原理">
-      <change afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder莫烦版.py" afterDir="false" />
+    <list default="true" id="c0fc9d87-66dd-4df1-ab6f-689016263982" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/keen_00_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_00_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_04_回归.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据github版.py" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据github版.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/pytorch.md" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/pytorch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder莫烦版.py" beforeDir="false" afterPath="$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder莫烦版.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+            <state relative-caret-position="1900">
+              <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
               <folding>
                 <element signature="e#131#143#0" expanded="true" />
               </folding>
@@ -51,22 +47,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/pytorch/Lib/site-packages/torchvision/datasets/mnist.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder莫烦版.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="61" column="31" selection-start-line="60" selection-start-column="23" selection-end-line="61" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_00_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+            <state relative-caret-position="71">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#124#136#0" expanded="true" />
+                <element signature="e#135#147#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Anaconda3/envs/pytorch/Lib/site-packages/torch/utils/data/dataloader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="2775">
               <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
             </state>
           </provider>
@@ -86,7 +73,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="500">
-                <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+                <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
                 <folding>
                   <element signature="e#122#134#0" />
                   <element signature="e#359#371#0" />
@@ -190,8 +177,8 @@
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/mnist/keen_12_AutoEncoder莫烦版.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_12_AutoEncoder莫烦版.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_00_test.py" />
-        <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder莫烦版.py" />
         <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder.py" />
+        <option value="$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder莫烦版.py" />
       </list>
     </option>
   </component>
@@ -279,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.02_imdb_classify">
+  <component name="RunManager" selected="Python.keen_11_AutoEncoder莫烦版">
     <configuration name="02_imdb_classify" type="PythonConfigurationType" factoryName="Python">
       <module name="computer vision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -467,9 +454,6 @@
       <module name="computer vision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-莫凡/pytorch" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -477,6 +461,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder莫烦版.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="keen_11_AutoEncoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="computer vision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-莫凡/pytorch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -550,8 +553,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.keen_00_test" />
         <item itemvalue="Python.keen_11_AutoEncoder莫烦版" />
+        <item itemvalue="Python.keen_00_test" />
         <item itemvalue="Python.keen_12_AutoEncoder莫烦版 (1)" />
         <item itemvalue="Python.keen_12_AutoEncoder莫烦版" />
       </list>
@@ -642,6 +645,9 @@
       <workItem from="1574128508601" duration="1364000" />
       <workItem from="1574682903913" duration="535000" />
       <workItem from="1574685080965" duration="5852000" />
+      <workItem from="1574691423672" duration="119000" />
+      <workItem from="1574758417904" duration="3097000" />
+      <workItem from="1574769086176" duration="927000" />
     </task>
     <task id="LOCAL-00001" summary="1. 测试维度添加&#10;2. 测试torch.rand(100)">
       <created>1572338958214</created>
@@ -734,11 +740,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573651288345</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="AutoEncoder未完成">
+      <created>1574691473648</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574691473648</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287133000" />
+    <option name="totallyTimeSpent" value="291276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,10 +763,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18986385" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19591528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -764,10 +777,35 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.23993288" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.07550336" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.10234899" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.28895614" side_tool="true" weight="0.47986576" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.7110439" visible="true" weight="0.44463086" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" weight="0.24508321" />
+      <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="5" side_tool="true" weight="0.27231467" />
+      <window_info anchor="right" content_ui="combo" x="198" y="121" width="987" height="426" id="SciView" order="6" side_tool="true" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32214764" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36241612" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.23993288" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.10234899" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2881997" side_tool="true" weight="0.3886097" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.7118003" visible="true" weight="0.10234899" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.7118003" visible="true" weight="0.09731544" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -776,7 +814,7 @@
       <window_info anchor="right" id="Database" order="4" weight="0.2457356" />
       <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="5" side_tool="true" weight="0.27231467" />
       <window_info anchor="right" content_ui="combo" x="0" y="23" width="1366" height="715" id="SciView" order="6" side_tool="true" type="WINDOWED" weight="0.32980332" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -845,7 +883,8 @@
     <MESSAGE value="CNN识别MNIST数据集首次自己跟着写" />
     <MESSAGE value="回归中添加了初始数据" />
     <MESSAGE value="删除原版，并理解accuracy的原理" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除原版，并理解accuracy的原理" />
+    <MESSAGE value="AutoEncoder未完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="AutoEncoder未完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -881,13 +920,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04-keras/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mmdetection-master/mmdetection-master/mmdet/models/detectors/faster_rcnn.py" />
     <entry file="file://$PROJECT_DIR$/05-test/01_test_str.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1109,16 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_05_分类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1750">
-          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
-          <folding>
-            <element signature="e#122#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/pytorch/Lib/site-packages/torch/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16950">
@@ -1134,16 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_00_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-          <folding>
-            <element signature="e#124#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_10_CNN识别MNIST数据集自写版.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -1156,8 +1168,42 @@
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/pytorch/Lib/site-packages/torchvision/datasets/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
+        <state relative-caret-position="1275">
           <caret line="61" column="31" selection-start-line="60" selection-start-column="23" selection-end-line="61" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_00_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+          <folding>
+            <element signature="e#124#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/pytorch/Lib/site-packages/torch/nn/modules/loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="426" column="8" selection-start-line="426" selection-start-column="8" selection-end-line="426" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+          <folding>
+            <element signature="e#131#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/pytorch/Lib/site-packages/torch/utils/data/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2775">
+          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1165,7 +1211,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="500">
-            <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+            <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
             <folding>
               <element signature="e#122#134#0" />
               <element signature="e#359#371#0" />
@@ -1180,29 +1226,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder莫烦版.py">
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_05_分类.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="1750">
+          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
           <folding>
-            <element signature="e#135#147#0" expanded="true" />
+            <element signature="e#122#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/pytorch/Lib/site-packages/torch/utils/data/dataloader.py">
+    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder莫烦版.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-莫凡/pytorch/keen_11_AutoEncoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+        <state relative-caret-position="71">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#131#143#0" expanded="true" />
+            <element signature="e#135#147#0" expanded="true" />
           </folding>
         </state>
       </provider>

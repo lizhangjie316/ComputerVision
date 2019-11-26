@@ -41,7 +41,7 @@ class AutoEncoder(nn.Module):
 	def __init__(self):
 		super(AutoEncoder, self).__init__()
 
-		nn.encoder = nn.Sequential(
+		self.encoder = nn.Sequential(
 			nn.Linear(28*28, 128),
 			nn.Tanh(),
 			nn.Linear(128, 64),
@@ -50,7 +50,7 @@ class AutoEncoder(nn.Module):
 			nn.Tanh(),
 			nn.Linear(12, 3),
 		)
-		nn.decoder = nn.Sequential(
+		self.decoder = nn.Sequential(
 			nn.Linear(3, 12),
 			nn.Tanh(),
 			nn.Linear(12, 64),
@@ -68,6 +68,7 @@ class AutoEncoder(nn.Module):
 
 
 autoencoder = AutoEncoder()
+# print(autoencoder)
 
 optimizer = torch.optim.Adam(autoencoder.parameters(), lr=LR)
 loss_func = nn.MSELoss()

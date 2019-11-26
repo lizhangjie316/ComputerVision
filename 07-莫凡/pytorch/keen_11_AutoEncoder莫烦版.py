@@ -16,7 +16,7 @@ from matplotlib import cm
 import numpy as np
 
 
-# torch.manual_seed(1)    # reproducible
+torch.manual_seed(1)    # reproducible
 
 # Hyper Parameters
 EPOCH = 10
@@ -35,11 +35,11 @@ train_data = torchvision.datasets.MNIST(
 )
 
 # plot one example
-print(train_data.train_data.size())     # (60000, 28, 28)
-print(train_data.train_labels.size())   # (60000)
-plt.imshow(train_data.train_data[2].numpy(), cmap='gray')
-plt.title('%i' % train_data.train_labels[2])
-plt.show()
+# print(train_data.train_data.size())     # (60000, 28, 28)
+# print(train_data.train_labels.size())   # (60000)
+# plt.imshow(train_data.train_data[2].numpy(), cmap='gray')
+# plt.title('%i' % train_data.train_labels[2])
+# plt.show()
 
 # Data Loader for easy mini-batch return in training, the image batch shape will be (50, 1, 28, 28)
 train_loader = Data.DataLoader(dataset=train_data, batch_size=BATCH_SIZE, shuffle=True)
@@ -64,7 +64,7 @@ class AutoEncoder(nn.Module):
             nn.Linear(12, 64),
             nn.Tanh(),
             nn.Linear(64, 128),
-            nn.Tanh(),
+            nn.Tanh(),  # range is (-1, 1)
             nn.Linear(128, 28*28),
             nn.Sigmoid(),       # compress to a range (0, 1)
         )
@@ -82,7 +82,7 @@ loss_func = nn.MSELoss()
 
 # initialize figure
 f, a = plt.subplots(2, N_TEST_IMG, figsize=(5, 2))
-plt.ion()   # continuously plot
+# plt.ion()   # continuously plot
 
 # original data (first row) for viewing
 view_data = train_data.train_data[:N_TEST_IMG].view(-1, 28*28).type(torch.FloatTensor)/255.
@@ -101,7 +101,7 @@ for epoch in range(EPOCH):
         loss.backward()                     # backpropagation, compute gradients
         optimizer.step()                    # apply gradients
 
-        if step % 100 == 0:
+        if step % 10000 == 0:
             print('Epoch: ', epoch, '| train loss: %.4f' % loss.data.numpy())
 
             # plotting decoded image (second row)
@@ -112,16 +112,17 @@ for epoch in range(EPOCH):
                 a[1][i].set_xticks(()); a[1][i].set_yticks(())
             plt.draw(); plt.pause(0.05)
 
-plt.ioff()
+# plt.ioff()
 plt.show()
 
 # visualize in 3D plot
-view_data = train_data.train_data[:200].view(-1, 28*28).type(torch.FloatTensor)/255.
-encoded_data, _ = autoencoder(view_data)
-fig = plt.figure(2); ax = Axes3D(fig)
-X, Y, Z = encoded_data.data[:, 0].numpy(), encoded_data.data[:, 1].numpy(), encoded_data.data[:, 2].numpy()
-values = train_data.train_labels[:200].numpy()
-for x, y, z, s in zip(X, Y, Z, values):
-    c = cm.rainbow(int(255*s/9)); ax.text(x, y, z, s, backgroundcolor=c)
-ax.set_xlim(X.min(), X.max()); ax.set_ylim(Y.min(), Y.max()); ax.set_zlim(Z.min(), Z.max())
-plt.show()
+# view_data = train_data.train_data[:200].view(-1, 28*28).type(torch.FloatTensor)/255.
+# encoded_data, _ = autoencoder(view_data)
+# fig = plt.figure(2); ax = Axes3D(fig)
+# X, Y, Z = encoded_data.data[:, 0].numpy(), encoded_data.data[:, 1].numpy(), encoded_data.data[:, 2].numpy()
+# values = train_data.train_labels[:200].numpy()
+# for x, y, z, s in zip(X, Y, Z, values):
+#     c = cm.rainbow(int(255*s/9)); ax.text(x, y, z, s, backgroundcolor=c)
+# ax.set_xlim(X.min(), X.max()); ax.set_ylim(Y.min(), Y.max()); ax.set_zlim(Z.min(), Z.max())
+# plt.show()
+
